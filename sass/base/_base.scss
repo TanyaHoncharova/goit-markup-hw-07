@@ -4,3 +4,19 @@ body {
     list-style: none;
     text-decoration: none;
 }
+
+.list,
+.nav-item {
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 94px;
+}

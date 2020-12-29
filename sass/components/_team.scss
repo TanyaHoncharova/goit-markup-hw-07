@@ -38,7 +38,7 @@
     font-size: 16px;
     line-height: 1.187;
     letter-spacing: 0.03em;
-    color: var(--title-text-color);
+    color: $title-text-color;
     margin: 0;
     margin-bottom: 10px;
     text-align: center;
@@ -49,7 +49,7 @@
     line-height: 1.1875;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--primari-text-color);
+    color: $primari-text-color;
 }
 
 
@@ -72,7 +72,6 @@
 .social-item {
     display: flex;
 
-
 }
 
 .social-link {
@@ -82,27 +81,25 @@
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background: var(--white-color);
+    background: $white-color;
     margin-right: 10px;
 
     transition-property: background;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0;
+
 }
+
+
 
 .social-icon {
     display: block;
     align-items: center;
     height: 20px;
     width: 20px;
-    fill: var(--icon-color);
+    fill: $icon-color;
     background-position: center;
-
-    /* transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 0; */
 
 }
 
@@ -110,7 +107,7 @@
 .social-link:focus,
 .social-link:hover svg,
 .social-link:focus svg {
-    background: var(--accent-color);
-    fill: var(--white-color);
+    background:  $accent-color;
+    fill: $white-color;
 
 }

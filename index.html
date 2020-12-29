@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css"> -->
-    <link rel="stylsheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     <link rel=" preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap"
@@ -21,8 +21,8 @@
     <header>
         <div class="header-box">
             <nav class="menu">
-                <a class="logo link" href="#">
-                    <img src="./images/WebStudio.svg" alt="логотип">
+                <a class="logo-link list" href="#">
+                    <span>Web</span><span class="header">Studio</span>
                 </a>
                 <ul class="nav-list list">
                     <li class="item curent"><a class="nav-item list curent" href="#">Студия</a></li>
@@ -94,14 +94,17 @@
                                 <textarea class="comment" name="comment" rows="5"
                                     placeholder="Введите текст"></textarea>
                         </div>
-                        <label for="contract">
-                            <input class="checkbox-input" id="contract" name="contract" type="checkbox"
-                                value="contract" />
-                            <svg class="checkbox-svg" widht="16" height="15">
-                                <use href=./images/icons/symbol-defs.svg#icon-checkbox></use>
-                            </svg>
-                            Соглашаюсь с рассылкой и принимаю <a class="link-contract" href="#">Условия договора</a>
-                        </label>
+                        <div class="license">
+                            <label for="contract">
+                                <input class="checkbox-input" id="contract" name="contract" type="checkbox"
+                                    value="contract" />
+                                <svg class="checkbox-svg" widht="16" height="15">
+                                    <use href=./images/icons/symbol-defs.svg#icon-checkbox></use>
+                                </svg>
+                                <span>Соглашаюсь с рассылкой и принимаю <a class="link-contract" href="#">Условия
+                                        договора</a></span>
+                            </label>
+                        </div>
                         </form>
                     </div>
                     <button class="form-btn btn" type="submit">Отправить</button>
@@ -391,8 +394,8 @@
     <footer>
         <div class="content">
             <div class="logo-addres">
-                <a class="logo-link list" href="#">
-                    <span>Web</span>Studio
+                <a class="logo-link footer-logo list" href="#">
+                    <span>Web</span><span class="footer">Studio</span>
                 </a>
                 <address>
                     <ul class="contacts">
