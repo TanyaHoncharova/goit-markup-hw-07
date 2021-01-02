@@ -15,30 +15,20 @@
     background-size: cover;
     background-position: center;
 
+    &-title {
+        font-weight: 900;
+        font-size: 44px;
+        margin-bottom: 30px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    }
+
 }
 
-.hero-title {
-    font-weight: 900;
-    font-size: 44px;
-    margin-bottom: 30px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-}
 
 .hero .hero-btn {
-    font: roboto;
-    background-color: $accent-color;
-    color:$white-color;
-    border: 1px solid $accent-color;
-    border-radius: 4px;
-    padding: 10px 32px;
-    height: 50px;
-    box-shadow: 0px 4px 4px $shadow-color;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.875;
-    letter-spacing: 0.06em;
+@extend %btn;
 
     transition-property: box-shadow;
     transition-duration: 250ms;

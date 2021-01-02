@@ -34,11 +34,11 @@
     background-color: transparent;
 
     svg {
+        justify-content: center;
+        margin: auto;
         width: 16px;
         height: 16px;
         fill: $black-color;
-        justify-content: center;
-        margin: auto;
     }
 
 }
@@ -57,10 +57,10 @@
 /* форма модалки */
 
 .form-box h2 {
+    text-align: center;
     color: $title-text-color;
     font-size: 20px;
     line-height: 1.15;
-    text-align: center;
 
 }
 
@@ -109,6 +109,7 @@
     padding-bottom: 12px;
     padding-left: 42px;
     cursor: pointer;
+
     font-size: 16px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -154,7 +155,7 @@ color: $primari-text-color;
     }
 
 .contract {
-    /* display: flex; */
+ 
     justify-content: start;
     font-size: 14px;
     line-height: 1.714;
@@ -164,8 +165,7 @@ color: $primari-text-color;
 }
 
 .checkbox-input {
-    -webkit-appearance: none;
-    -moz-appearance: none;
+
     appearance: none;
     position: absolute;
 }
@@ -198,12 +198,3 @@ color: $primari-text-color;
     border-radius: 4px;
 }
 
-// .container {
-//     display: flex;
-//     width: 1200px;
-//     padding-right: 15px;
-//     padding-left: 15px;
-//     justify-content: center;
-//     margin: 0 auto;
-//     padding-bottom: 94px;
-// }

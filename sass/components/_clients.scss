@@ -28,14 +28,14 @@
 }
 
 .client {
+    @extend %centered;
+    justify-content: center;
     width: calc((100% - 150px) / 6);
     height: 90px;
+    
     border: 1px solid $border-color;
     border-radius: 4px;
     margin-right: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
 }
 
@@ -44,11 +44,10 @@
 }
 
 .clients-logo {
+    @extend %centered;
+    justify-content: center;
     width: 170px;
     height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     fill: $icon-color;
 
     transition-property: fill;

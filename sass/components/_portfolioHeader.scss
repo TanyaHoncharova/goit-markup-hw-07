@@ -1,6 +1,5 @@
 .header-box-p {
-    display: flex;
-    align-items: center;
+@extend %centered;
     justify-content: space-between;
     width: 1200px;
     border-bottom: 1px solid $section-color;

@@ -1,8 +1,8 @@
 
 .header-box {
-    display: flex;
-    align-items: center;
+@extend %centered;
     justify-content: space-between;
+
 width: 1200px;
 margin: 0 auto;
 
@@ -11,8 +11,7 @@ margin: 0 auto;
 
 
 .menu {
-    display: flex;
-    align-items: center;
+@extend %centered;
     justify-content: space-around;
 }
 
@@ -41,7 +40,6 @@ margin: 0 auto;
 .nav-item {
     display: block;
     padding-top: 32px;
-    /* padding-bottom: 32px; */
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
@@ -65,8 +63,7 @@ margin: 0 auto;
     margin-left: auto;
 
     & li {
-        display: flex;
-        align-items: center;
+@extend %centered;
     
     }
     & a {
@@ -87,6 +84,7 @@ margin: 0 auto;
 
 
 
+
 .address .item:not(:last-child) {
     margin-right: 50px;
 }
@@ -104,6 +102,8 @@ margin: 0 auto;
 
 .icon-address {
     display: inline-block;
+    vertical-align: middle;
+
     margin-right: 10px;
     fill: $primari-text-color;
 

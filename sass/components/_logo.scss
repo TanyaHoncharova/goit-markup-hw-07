@@ -1,16 +1,9 @@
 .logo-link {
-    // display: flex;
-    display: block;
-
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-       
+    @extend %logo;   
     & span {
         color: $accent-color;
     }
+
 
 }
 
@@ -18,10 +11,13 @@
     color:$title-text-color;
     margin: 0px;
 }
+
 .footer-logo {
     margin-bottom: 20px;
-}
-.logo-link .footer {
-    color: $white-color;
 
+    & .footer {
+        color: $white-color;
+
+    }
 }
+

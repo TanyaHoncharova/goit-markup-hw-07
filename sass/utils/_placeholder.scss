@@ -1,0 +1,29 @@
+%logo {
+     display: block;
+    font-family: 'Raleway',
+    sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+%centered {
+   display: flex;
+   align-items: center;
+}
+
+%btn {
+     font: roboto;
+     background-color: $accent-color;
+    color:$white-color;
+     border: 1px solid $accent-color;
+    border-radius: 4px;
+    padding: 10px 32px;
+    height: 50px;
+     box-shadow: 0px 4px 4px $shadow-color;
+    font-weight: bold;
+    font-size: 16px;
+     line-height: 1.875;
+    letter-spacing: 0.06em;
+}
