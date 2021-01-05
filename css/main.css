@@ -364,6 +364,40 @@ summary {
   letter-spacing: 0.06em;
 }
 
+.section-h, .regular-clients h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
+}
+
+.advantages-item h3, .about-txt h3, .subscription-h {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+}
+
+.advantages-item p, .contacts, .contacts a {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.72px;
+  letter-spacing: 0.03em;
+}
+
+.filter, .filter-btn.anchor {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+}
+
 .logo-link span {
   color: #2196F3;
 }
@@ -805,10 +839,6 @@ body {
 }
 
 .advantages-item h3 {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
   margin: 0;
@@ -816,10 +846,6 @@ body {
 }
 
 .advantages-item p {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
   margin: 0;
 }
 
@@ -853,12 +879,7 @@ body {
 }
 
 .section-h {
-  font-weight: 700;
-  font-size: 36px;
-  margin-bottom: 50px;
   text-align: center;
-  line-height: 1.167;
-  letter-spacing: 0.03em;
   color: #212121;
 }
 
@@ -900,13 +921,7 @@ body {
 .about-txt h3 {
   display: block;
   width: 100%;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.142px;
   text-align: center;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -1043,11 +1058,8 @@ body {
 }
 
 .regular-clients h2 {
-  font-weight: 700;
-  font-size: 36px;
   line-height: 1.1719;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 50px;
 }
@@ -1123,20 +1135,11 @@ footer {
 }
 
 .contacts {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.174;
-  letter-spacing: 0.03em;
   color: #ffffff;
   padding-bottom: 60px;
 }
 
 .contacts a {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.72px;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 9px;
 }
@@ -1229,11 +1232,6 @@ footer {
 }
 
 .subscription-h {
-  /* display: block; */
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
   color: #ffffff;
@@ -1310,10 +1308,6 @@ footer {
           justify-content: center;
   margin-bottom: 34px;
   color: #212121;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.625;
-  letter-spacing: 0.03em;
 }
 
 .filter-item {
@@ -1330,12 +1324,7 @@ footer {
   border: 1px solid #F5F4FA;
   border-radius: 4px;
   padding: 6px 22px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.625;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .filter-btn:hover,
