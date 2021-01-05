@@ -22,19 +22,12 @@ footer {
 
 
 .contacts {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.174;
-    letter-spacing: 0.03em;
+    @extend %ap;
     color: $white-color;
     padding-bottom: 60px;
 
     & a {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 1.72px;
-        letter-spacing: 0.03em;
+    @extend %ap;
         color: $footer-w-color;
         margin-bottom: 9px;
 
@@ -117,11 +110,7 @@ footer {
 }
 
 .subscription-h {
-    /* display: block; */
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+    @extend %h3;
     text-transform: uppercase;
     margin-bottom: 20px;
     color: $white-color;

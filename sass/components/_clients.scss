@@ -9,12 +9,9 @@
     padding-bottom: 94px;
 
      h2 {
-
-        font-weight: 700;
-        font-size: 36px;
+        @extend %h2;
         line-height: 1.1719;
         text-align: center;
-        letter-spacing: 0.03em;
         color: $title-text-color;
         margin-bottom: 50px;
     }
